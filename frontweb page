@@ -1,0 +1,309 @@
+ html//
+ 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Court Hub</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav id="navbar">
+        <a href="#" class="logo">🍔 Food Court <span>Hub.</span></a>
+        <div class="navlinks">
+            <a href="#home">Home</a>
+            <a href="#food">Our Menu</a>
+            <a href="#prices">Prices</a>
+            <a href="#bottom">Contact</a>
+        </div>
+    </nav>
+
+    <div id="home">
+        <p class="tag">✦ YOUR CAMPUS FOOD GUIDE</p>
+        <h1>Good Food.<br><span>Great Mood.</span></h1>
+        <p class="intro">
+            Hungry between classes? Discover amazing food,
+            explore campus favourites and find your next meal.
+        </p>ref="#food" class="button">Explore The Menu ↗</a>
+        <p class="small">Fresh flavours. Happy moments. Every day.</p>
+    </div>
+
+    <div class="section-title" id="food">
+        <p class="tag">MADE FOR YOUR CRAVINGS</p>
+        <h1>Something Delicious.</h1>
+        <p>From cheesy bites to sweet delights, find your favourite.</p>
+    </div>
+
+    <div class="food-container">
+
+        <div class="food-card">
+            <img src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=800&q=85"
+                 alt="Delicious burger">
+            <div class="card-info">
+                <p class="category">★ CAMPUS FAVOURITE</p>
+                <h2>Classic Burger</h2>
+                <p>Juicy, cheesy and packed with flavour. The perfect bite for your break.</p>
+                <div class="card-bottom">
+                    <h3>₹199 <span>/ onwards</span></h3>
+                    <a href="#prices">Explore ↗</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="food-card">
+            <img src="https://images.unsplash.com/photo-1579751626657-72bc17010498?w=800&q=85"
+                 alt="Fresh pizza">
+            <div class="card-info">
+                <p class="category">✦ CHEESY GOODNESS</p>
+                <h2>Loaded Pizza</h2>
+                <p>Golden crust, melted cheese and delicious toppings in every slice.</p>
+                <div class="card-bottom">
+                    <h3>₹299 <span>/ onwards</span></h3>
+                    <a href="#prices">Explore ↗</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="food-card">
+            <img src="https://images.unsplash.com/photo-1551024506-0bccd828d307?w=800&q=85"
+                 alt="Sweet dessert">
+            <div class="card-info">
+                <p class="category">♥ SWEET MOMENTS</p>
+                <h2>Sweet Treats</h2>
+                <p>Delightful desserts to make your day a little sweeter.</p>
+                <div class="card-bottom">
+                    <h3>₹99 <span>/ onwards</span></h3>
+                    <a href="#prices">Explore ↗</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="special">
+        <div>
+            <p class="tag">YOUR NEXT FAVOURITE MEAL</p>
+            <h1>Cravings don't<br>wait for anyone.</h1>
+            <p>Take a break. Grab a bite. Get back to being awesome.</p>
+            <a href="#prices" class="button">View Price List ↗</a>
+        </div>
+        <div class="special-emoji">🍕</div>
+    </div>
+
+    <div id="prices">
+        <div class="section-title">
+            <p class="tag">GOOD FOOD, FAIR PRICES</p>
+            <h1>What's On Your Plate?</h1>
+            <p>Check out some campus favourites before your next food break.</p>
+        </div>
+
+        <table id="table">
+            <thead>
+                <tr>
+                    <th>Dish</th>
+                    <th>Price</th>
+                    <th>Our Pick</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>🍔 Classic Burger</td>
+                    <td>₹199</td>
+                    <td><span class="popular">Popular</span></td>
+                </tr>
+                <tr>
+                    <td>🍕 Loaded Pizza</td>
+                    <td>₹299</td>
+                    <td><span class="popular">Cheesy</span></td>
+                </tr>
+                <tr>
+                    <td>🍩 Sweet Treats</td>
+                    <td>₹99</td>
+                    <td><span class="popular">Sweet</span></td>
+                </tr>
+                <tr>
+                    <td>🍟 French Fries</td>
+                    <td>₹120</td>
+                    <td><span class="popular">Crispy</span></td>
+                </tr>
+                <tr>
+                    <td>🥤 Chocolate Shake</td>
+                    <td>₹150</td>
+                    <td><span class="popular">Creamy</span></td>
+                </tr>
+                <tr>
+                    <td>🍰 Red Velvet Cake</td>
+                    <td>₹180</td>
+                    <td><span class="popular">Special</span></td>
+                </tr>
+            </tbody>
+        </table>
+        <p class="note">* Prices are illustrative and may vary by food court.</p>
+    </div>
+
+    <footer id="bottom">
+        <a href="#home" class="logo">🍔 Food Court <span>Hub.</span></a>
+        <h1>Eat well. Live <span>deliciously.</span></h1>
+        <p>Your campus, your cravings, your food journey.</p>
+        <a href="#home" class="back">Back to top ↑</a>
+        <div class="footer-line"></div>
+        <p class="copyright">© 2026 Food Court Hub · Made with ♥ for food lovers</p>
+    </footer>
+
+</body>
+</html>
+
+
+css/////
+#food{
+    background-color:#292524;
+    color: green;
+    height: 200px;
+}
+
+#food h1, #food p, #food h3{
+    text-align: center;
+}
+
+h3.red{
+    color:red;
+}
+
+h1.white{
+    color:aliceblue;
+}
+
+p.white{
+    color:white;
+}
+
+#a {
+    color: black;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+
+a.burger {
+    color: red;
+    font-size: 30px;
+    text-decoration: none;
+    text-align: center;
+    flex: 1;
+}
+
+a.button{
+    background-color:brown;
+    text-align: center;
+    display: block;
+    width: max-content;
+    margin: 0 auto;
+    font-size: 30px;
+    color:black;
+}
+
+.b{
+    display:flex;
+    align-items:center;
+    gap:100px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.img{
+    width:500px;
+    margin-left: 10px;
+    height:auto;
+}
+
+.text{
+    flex:1;
+    color:maroon;
+}
+
+.third{
+    padding:20px;
+    display:flex;
+    gap:100px;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.img2{
+    margin-left:10px;
+    width:500px;
+    height:600px;
+}
+
+.text2{
+    flex:1;
+    color:maroon;
+}
+
+.four{
+    padding:20px;
+    display:flex;
+    gap:100px;
+    align-items:center;
+    margin:20px 0;
+}
+
+.img3{
+    width:500px;
+    height: auto;
+    margin-left:20px;
+}
+
+.text3{
+    color:maroon;
+    flex:1;
+}
+
+#div2{
+    background-color:#292524;
+    height:auto;
+    display:flex;
+    color:white;
+    align-items: center;
+    flex-direction: column;
+}
+
+#table{
+    color:black;
+    margin: 20px auto;
+}
+
+.text4{
+    background-color: darkslategrey;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px 15px;
+}
+
+.text5{
+    color:lavenderblush;
+}
+
+#bottom {
+    background-color: chocolate;
+    text-align: center;
+    padding: 40px 20px;
+    margin-top: 50px;
+}
+
+#bottom h1, #bottom h2 {
+    color:white;
+    margin-bottom: 10px;
+}
+
+#bottom p {
+    color: #cbd5e1;
+    margin-bottom: 10px;
+}
