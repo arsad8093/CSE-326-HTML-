@@ -1,144 +1,293 @@
- html//
- 
+html////
+
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Court Hub</title>
+    <link rel="stylesheet" href="ruf.css">
 </head>
+
 <body>
-   <link rel ="stylesheet" href = "ruf.css">
-    <div id = "a">
-    <a href = # class = "burger">🍔 Food Court Hub</a>
-    <a class = "burger">Home</a>
-    <a class = "burger">Food Courts</a>
-    <a class = "burger">contacts</a>
-  </div>
+
+    <div id="a">
+        <a href="#top" class="burger">🍔 Food Hub</a>
+        <a href="#top" class="burger">Home</a>
+        <a href="#food" class="burger">Food</a>
+        <a href="#bottom" class="burger">Contacts</a>
+    </div>
+
+
+
+
     <div id="food">
-    <h3 class = "red"> your campus food GUIDE</h3>
-    <h1>Hungry? Find Your FOOD.</h1>
-    <p class="white">Explore campus food courts, discover menus and find your favourite meals in one place.</p>
-    <a class = "button">Explore Food courts</a>
-  </div>
-  
-  <div class = "b">
-    <img src = "https://img.magnific.com/premium-photo/juicy-burger-splash-with-flying-ingredients-dark-background-fast-food-explosion-concept_1428223-575.jpg?semt=ais_hybrid&w=740&q=80" alt ="burger pic" class = "img">
-    
-     <div>
-        <h2 class = "text">Delicious Burger</h2>
-        <h3>Explore the best burgers in the campus. Hot, crispy, and fresh just for you!</h3>
-        <p>Made with 100% fresh veggies and premium cheese slice.</p>
-        <p>Starting with just ruppy 199/-</p>
+
+        <h3 class="red">Your Food GUIDE</h3>
+
+        <h1>Hungry? Find Your FOOD.</h1>
+
+        <p class="white">
+            Explore food, discover menus and find your favourite meals in one place.
+        </p>
+
+        <a href="#burger-section" class="button">Explore Food</a>
+
     </div>
-  </div>
 
-  <div class = "third">
-    <img src = "https://img.magnific.com/premium-photo/pizza-with-slice-missing-is-falling-into-water_1123417-2427.jpg?semt=ais_hybrid&w=740&q=80" alt = "pizza" class = "img2">
+    <div class="b" id="burger-section">
 
-    <div>
-      <h2 class = "text2">Delicious Pizza</h2>
-      <h3>Explore best variaty of  Pizza</h3>
-       <p>Choose from classic Margherita, Farmhouse Veggie, or spicy Paneer toppings.</p>
-       <p>Starting with just ₹299/- only</p>
+        <img
+            src="https://img.magnific.com/premium-photo/juicy-burger-splash-with-flying-ingredients-dark-background-fast-food-explosion-concept_1428223-575.jpg?semt=ais_hybrid&w=740&q=80"
+            alt="Burger picture"
+            class="img"
+            onclick="showFood('Burger')">
+
+        <div>
+
+            <h2 class="text">Delicious Burger</h2>
+
+            <h3>Explore the best burgers on campus. Hot, crispy, and fresh just for you!</h3>
+
+            <p>Made with fresh veggies and premium cheese slice.</p>
+
+            <p>Starting with just ₹199/-</p>
+
+            <button onclick="showFood('Burger')">Order Now</button>
+
+        </div>
+
     </div>
-  </div>`
 
-  <div class = "four">
-    <img src = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR00PuHeJ4CQn63oNg1kHoqo0AO5PLee7cwlvpdbZDJuw&s=10" alt ="sweet" class = "img3">
-    <div>
-      <h2 class = "text3">Sweets with great ingredients</h2>
-      <h3>avaiable in so many varieties</h3>
-      <p>Made with authentic ghee, dry fruits, and pure milk for premium quality sweetness.</p>
-      <p>Starting with just ₹99/- only</p>
+    <div class="third">
+
+        <img
+            src="https://img.magnific.com/premium-photo/pizza-with-slice-missing-is-falling-into-water_1123417-2427.jpg?semt=ais_hybrid&w=740&q=80"
+            alt="Pizza"
+            class="img2"
+            onclick="showFood('Pizza')">
+
+        <div>
+
+            <h2 class="text2">Delicious Pizza</h2>
+
+            <h3>Explore the best variety of Pizza.</h3>
+
+            <p>Choose from classic Margherita, Farmhouse Veggie, or spicy Paneer toppings.</p>
+
+            <p>Starting with just ₹299/- only</p>
+
+            <button onclick="showFood('Pizza')">Order Now</button>
+
+        </div>
+
     </div>
-  </div>
-  <tr></tr>
 
-  <div id = "div2">
-    <h1> Whats on Your Plate ?</h1>
-    <h4 class = "text5">Compare popular dishes, check their prices and choose your next meal.</h4>
-  </div>
+    <div class="four">
 
-  <table id = "table">
-    <thead class ="text4">
-    <tr>
-      <th>Dish name</th>
-      <th>price(INR)</th>
-      <th>specialty</th>
-    </tr>
-    </thead>
-    <tbody>
-    <tr>
-      <td>🍔 Delicious Burger</td>
-      <td>₹199</td>
-      <td>crispy &amp Fresh</td>
-    </tr>
-    <tr>
-      <Td>🍕 Cheesy Pizza</Td>
-      <td>₹299</td>
-      <td>Loaded with Veggies</td>
-    </tr>
-    <tr>
-      <td>Sweets &amp Desserts</td>
-      <td>₹99</td>
-      <td>Pure Ingredients</td>
-    </tr>
-    <tr> 
-      <td>🍟 French Fries</td> 
-      <td>₹120</td> 
-      <td>Salted &amp Golden</td> 
-    </tr> 
-    <tr> 
-      <td>🧋 Choco Milkshake</td> 
-      <td>₹150</td> 
-      <td>Thick &amp Creamy</td> 
-    </tr> 
-     <tr> 
-        <td>🍰 Red Velvet Cake</td> 
-        <td>₹180</td> 
-        <td>Rich &amp Fluffy</td> 
-    </tr> 
-    </tbody>
-  </table>
-<div id="bottom">
-    <h1 class="bottom">That's a Wrap! 🍽️</h1>
-    <h2>Good Food. Great Mood.</h2>
-    <p>From quick bites to delicious treats, your next favourite meal is just around the corner.</p>
-    <p>Thanks for exploring Food Court Hub!</p>
-    <h3>Eat Well. Stay Happy. ❤️</h3>
-    <p>© 2026 Food Court Hub | Made for Food Lovers</p>
-</div>
+        <img
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR00PuHeJ4CQn63oNg1kHoqo0AO5PLee7cwlvpdbZDJuw&s=10"
+            alt="Sweets"
+            class="img3"
+            onclick="showFood('Sweets')">
+
+        <div>
+
+            <h2 class="text3">Sweets with Great Ingredients</h2>
+
+            <h3>Available in so many varieties.</h3>
+
+            <p>Made with authentic ghee, dry fruits, and pure milk.</p>
+
+            <p>Starting with just ₹99/- only</p>
+
+            <button onclick="showFood('Sweets')">Order Now</button>
+
+        </div>
+
+    </div>
+
+    <div id="div2">
+
+        <h1>What's on Your Plate?</h1>
+
+        <h4 class="text5">
+            Compare popular dishes, check their prices and choose your next meal.
+        </h4>
+
+    </div>
 
 
+    <table id="table">
+
+        <thead class="text4">
+
+            <tr>
+                <th>Dish Name</th>
+                <th>Price (INR)</th>
+                <th>Specialty</th>
+            </tr>
+
+        </thead>
+
+        <tbody>
+
+            <tr>
+                <td>🍔 Delicious Burger</td>
+                <td>₹199</td>
+                <td>Crispy & Fresh</td>
+            </tr>
+
+            <tr>
+                <td>🍕 Cheesy Pizza</td>
+                <td>₹299</td>
+                <td>Loaded with Veggies</td>
+            </tr>
+
+            <tr>
+                <td>Sweets & Desserts</td>
+                <td>₹99</td>
+                <td>Pure Ingredients</td>
+            </tr>
+
+            <tr>
+                <td>🍟 French Fries</td>
+                <td>₹120</td>
+                <td>Salted & Golden</td>
+            </tr>
+
+            <tr>
+                <td>🧋 Choco Milkshake</td>
+                <td>₹150</td>
+                <td>Thick & Creamy</td>
+            </tr>
+
+            <tr>
+                <td>🍰 Red Velvet Cake</td>
+                <td>₹180</td>
+                <td>Rich & Fluffy</td>
+            </tr>
+
+        </tbody>
+
+    </table>
+
+    <div class="meal" id="booking">
+
+        <h2>Book Your Table!!</h2>
+
+        <form onsubmit="return bookTable()">
+
+            <table>
+
+                <tr>
+                    <td><label for="name">Enter Name</label></td>
+                    <td><input type="text" id="name" placeholder="Your name"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="age">Enter Age</label></td>
+                    <td><input type="number" id="age" placeholder="Your age"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="number">Contact Number</label></td>
+                    <td><input type="tel" id="number" placeholder="Your phone number"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="date">Date of Arrival</label></td>
+                    <td><input type="date" id="date"></td>
+                </tr>
+
+                <tr>
+                    <td><label for="persons">Number of Persons</label></td>
+
+                    <td>
+                        <select id="persons">
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                            <option value="6">6</option>
+                        </select>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td colspan="2">
+                        <button type="submit">Submit Booking</button>
+                    </td>
+                </tr>
+
+            </table>
+
+            <p id="message"></p>
+
+        </form>
+
+    </div>
+
+
+    <div id="bottom">
+
+        <h1 class="bottom">That's a Wrap! 🍽️</h1>
+
+        <h2>Good Food. Great Mood.</h2>
+
+        <p>
+            From quick bites to delicious treats, your next favourite meal is just around the corner.
+        </p>
+
+        <p>Thanks for exploring Food Court Hub!</p>
+
+        <h3>Eat Well. Stay Happy. ❤️</h3>
+
+        <p>© 2026 Food Court Hub | Made for Food Lovers</p>
+
+    </div>
+
+
+    <script src="scriptt.js"></script>
 
 </body>
-<script src="script.js"></script>
+
 </html>
 
 
+css///
 
-css/////
-#food{
-    background-color:#292524;
+
+body {
+    background-color: bisque;
+    color: black;
+
+}
+
+#food {
+    background-color: #292524;
     color: green;
     height: 200px;
 }
 
-#food h1, #food p, #food h3{
+#food h1,
+#food p,
+#food h3 {
     text-align: center;
 }
 
-h3.red{
-    color:red;
+h3.red {
+    color: red;
 }
 
-h1.white{
-    color:aliceblue;
+h1.white {
+    color: aliceblue;
 }
 
-p.white{
-    color:white;
+p.white {
+    color: white;
 }
 
 #a {
@@ -148,7 +297,9 @@ p.white{
     justify-content: space-between;
     align-items: center;
     padding: 10px 40px;
+
 }
+
 
 a.burger {
     color: red;
@@ -158,99 +309,104 @@ a.burger {
     flex: 1;
 }
 
-a.button{
-    background-color:brown;
+a.button {
+    background-color: brown;
     text-align: center;
     display: block;
     width: max-content;
     margin: 0 auto;
     font-size: 30px;
-    color:black;
+    color: black;
 }
 
-.b{
-    display:flex;
-    align-items:center;
-    gap:100px;
+.b {
+    display: flex;
+    align-items: center;
+    gap: 100px;
     padding: 20px;
-    border-radius: 20px;
+    border-radius: 40px;
     margin: 20px 0;
+
 }
 
-.img{
-    width:500px;
+.img {
+    width: 30%;
     margin-left: 10px;
-    height:auto;
+    height: auto;
+
 }
 
-.text{
-    flex:1;
-    color:maroon;
+.text {
+    flex: 1;
+    color: maroon;
 }
 
-.third{
-    padding:20px;
-    display:flex;
-    gap:100px;
+.third {
+    padding: 20px;
+    display: flex;
+    gap: 100px;
     align-items: center;
     margin: 20px 0;
 }
 
-.img2{
-    margin-left:10px;
-    width:500px;
-    height:600px;
+.img2 {
+    margin-left: 10px;
+    width: 30%;
+    height: 450px;
 }
 
-.text2{
-    flex:1;
-    color:maroon;
+.text2 {
+    flex: 1;
+    color: maroon;
 }
 
-.four{
-    padding:20px;
-    display:flex;
-    gap:100px;
-    align-items:center;
-    margin:20px 0;
+.four {
+    padding: 20px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    margin: 20px 0;
 }
 
-.img3{
-    width:500px;
+.img3 {
+    width: 30%;
+    margin-left: 20px;
+    height: 450px;
+}
+
+.text3 {
+    color: maroon;
+    flex: 1;
+}
+
+#div2 {
+    background-color: #292524;
     height: auto;
-    margin-left:20px;
-}
-
-.text3{
-    color:maroon;
-    flex:1;
-}
-
-#div2{
-    background-color:#292524;
-    height:auto;
-    display:flex;
-    color:white;
+    display: flex;
+    color: white;
     align-items: center;
     flex-direction: column;
 }
 
-#table{
-    color:black;
+#table {
+    color: black;
     margin: 20px auto;
+    border: black solid;
 }
 
-.text4{
+.text4 {
     background-color: darkslategrey;
 }
 
-th, td {
+th,
+td {
     border: 1px solid black;
-    padding: 10px 15px;
+    padding: 10px;
+    text-align: center;
 }
 
-.text5{
-    color:lavenderblush;
+.text5 {
+    color: lavenderblush;
 }
 
 #bottom {
@@ -260,8 +416,10 @@ th, td {
     margin-top: 50px;
 }
 
-#bottom h1, #bottom h2 {
-    color:white;
+
+#bottom h1,
+#bottom h2 {
+    color: white;
     margin-bottom: 10px;
 }
 
@@ -269,3 +427,95 @@ th, td {
     color: #cbd5e1;
     margin-bottom: 10px;
 }
+
+
+.meal {
+    background-color: bisque;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.meal table{
+    margin: auto;
+}
+.meal h2 {
+    background-color:#292524;
+    color:white;
+    text-align: center;
+    height:70px;
+    align-items: center;
+}
+
+
+javascript////
+
+alert("Welcome to Food Court Hub!");
+
+function showFood(food) {
+
+    alert("You selected " + food + "!");
+
+}
+
+
+function bookTable() {
+
+
+    let name = document.getElementById("name").value;
+
+    let age = document.getElementById("age").value;
+
+    let number = document.getElementById("number").value;
+
+    let date = document.getElementById("date").value;
+
+    let persons = document.getElementById("persons").value;
+
+
+
+    if (name == "" || age == "" || number == "" || date == "") {
+
+        alert("Please fill all the details!");
+
+        return false;
+
+    }
+
+
+
+
+    if (age < 1 || age > 120) {
+
+        alert("Please enter a valid age!");
+
+        return false;
+
+    }
+
+
+
+    if (number.length != 10 ) {
+
+        alert("Please enter a valid 10 digit contact number!");
+
+        return false;
+
+    }
+
+
+
+
+    document.getElementById("message").innerHTML =
+
+        "Thank you " + name +
+        "! Your table booking request for " +
+        persons + " persons has been received.";
+
+
+    alert("Your booking request has been submitted!");
+
+    return false;
+
+}
+
+
